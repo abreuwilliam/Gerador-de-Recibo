@@ -35,5 +35,15 @@
         }
         .ladoalado > p{
         }
-        
-    
+        .ladoalado > button{
+            color: white;
+            background-color: #735bd1;
+            height: 30px;
+            width: 200px;
+        }
+        #limpar:hover{
+            background-color: #2f13cf;
+        }
+        #gerar:hover{
+            background-color: #2f13cf;
+        }
