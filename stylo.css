@@ -30,16 +30,25 @@
         }
         .ladoalado{
                 display: flex; 
-                flex-direction: row; 
-                
+                flex-direction: row;    
         }
-        .ladoalado > p{
+        #espacamento{
+            margin-left:20px;
         }
         .ladoalado > button{
             color: white;
-            background-color: #735bd1;
-            height: 30px;
-            width: 200px;
+            background-color:  rgb(81, 34, 209);
+            height: 35px;
+            width: 218px;
+        }
+        #limpar{
+            background-color: rgb(94, 88, 110);
+        }
+        button{
+            border-radius: 10px 10px 10px 10px;
+            font-family: "Inter", sans-serif ; font-size: 1em; font-weight: 100; font-style: normal; font-variation-settings: "slnt" 0;
+            font-weight: lighter;
+            color: rgb(255, 255, 255);
         }
         #limpar:hover{
             background-color: #2f13cf;
