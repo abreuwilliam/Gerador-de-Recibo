@@ -37,7 +37,7 @@
         }
         .ladoalado > button{
             color: white;
-            background-color:  rgb(81, 34, 209);
+            background-color:  rgb(81, 29, 226);
             height: 35px;
             width: 218px;
         }
@@ -53,6 +53,6 @@
         #limpar:hover{
             background-color: #2f13cf;
         }
-        #gerar:hover{
+        .gerar:hover{
             background-color: #2f13cf;
         }
