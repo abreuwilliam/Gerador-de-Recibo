@@ -35,11 +35,17 @@
             width: 65px;  
         }
         .marcador > p{
-            margin: 9px 19px 23px 16px
+            margin: 3px 19px 23px 16px
         }
         .marcador > input{
             position: relative;
+            padding: 10px;
+            width: 20px; /* Define a largura do radio button */
+            height: 20px; /* Define a altura do radio button */
+            -webkit-appearance: none; /* Remove a aparência padrão */
+             border-radius: 50%; /* Torna o elemento redondo */
             
+    position: relative; /* Define posição relativa */
         }
         .ladoalado{
                 display: flex; 
@@ -51,8 +57,8 @@
         .ladoalado > button{
             color: white;
             background-color:  rgb(81, 29, 226);
-            height: 35px;
-            width: 218px;
+            height: 42px;
+            width: 235px;
         }
         #limpar{
             background-color: rgb(94, 88, 110);
