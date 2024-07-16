@@ -28,6 +28,19 @@
             background-color: #F0F0F0;
             border-radius: 10px 10px 10px 10px;
         }
+        .marcador{
+            display: flex; 
+            flex-direction: row;
+            height: 28px;
+            width: 65px;  
+        }
+        .marcador > p{
+            margin: 9px 19px 23px 16px
+        }
+        .marcador > input{
+            position: relative;
+            
+        }
         .ladoalado{
                 display: flex; 
                 flex-direction: row;    
@@ -55,4 +68,11 @@
         }
         .gerar:hover{
             background-color: #2f13cf;
+        }
+        .marcadorduasvias{
+            display: flex; 
+            flex-direction: row;
+            height: 100px;
+            width: 98px;
+            margin: 35px 0px 0px 48px;
         }
