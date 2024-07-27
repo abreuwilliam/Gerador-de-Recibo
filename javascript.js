@@ -12,11 +12,4 @@ const idata = document.querySelector(".data input");
 
 formulario.addEventListener('submit', function (event) {
     event.preventDefault();
-
-   
-    console.log(idata.value)
-   
-    
-    
-    
 });
