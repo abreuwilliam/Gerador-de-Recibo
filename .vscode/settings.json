@@ -68,5 +68,6 @@
         "c:\\Users\\Administrador\\Desktop\\java\\itext\\sign-8.0.4.jar",
         "c:\\Users\\Administrador\\Desktop\\java\\itext\\styled-xml-parser-8.0.4.jar",
         "c:\\Users\\Administrador\\Desktop\\java\\itext\\svg-8.0.4.jar"
-    ]
+    ],
+    "java.compile.nullAnalysis.mode": "automatic"
 }

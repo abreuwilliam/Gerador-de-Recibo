@@ -12,4 +12,14 @@ const idata = document.querySelector(".data input");
 
 formulario.addEventListener('submit', function (event) {
     event.preventDefault();
+    const dataSelecionada = idata.value;
+
+    // Enviando os dados para o servlet usando Fetch
+    fetch('/seu-servlet', {
+        method: 'POST',
+        body: JSON.stringify({ data: dataSelecionada })
+    })
+    .then(response => response.json())
+    .then(data => console.log('Success:', data))
+    .catch(error => console.error('Error:', error));
 });
