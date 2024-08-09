@@ -9,57 +9,59 @@
    
 </head>
 <body>
-    <form action="">
-    <h1>Recibo Simples</h1>
-    <div>
-    <p>valor</p>
-    </div>
-    <div class="valor">
-        <input type="text" name="valor"  class="valor" placeholder="digite o valor aqui" required maxlength="4">
-        </div>
-        <div class="ladoalado">
-            <p>Pagador</p>
-            <p style="margin-left: 159px;">CNPJ</p>
-        </div>
-        <div class="ladoalado">
-            <input type="text" class="nomepagador" name="nomepagador" placeholder="Digite o nome do Pagador">
-            <input id="espacamento" class="cpfpagador" name="cpfpagador" type="text" placeholder="Digite o CPF/CNPJ do Pagador">
-        </div>
+    <form action="gerar">
+        <h1>Recibo Simples</h1>
         <div>
-            <p>Referencia</p>
-            <input id="referencia" class="referencia" name="referencia" type="text" placeholder="Digite a Referencia">
+        <p>valor</p>
         </div>
-        <div class="ladoalado">
-            <p>Nome do Emissor</p>
-            <p style="margin-left: 78px;" >CPF/CNPJ</p>
-        </div>
-        <div class="ladoalado">
-            <input type="text"  class="nomeemissor" name="nomeemissor" placeholder="Digite o seu nome">
-            <input id="espacamento" class="cpfemissor" name="cpfemissor" type="text" placeholder="Digite o seu CPF/CNPJ">
-        </div>
-        <div class="ladoalado">
-            <p>Telefone(opcional)</p>
-            <p style="margin-left: 78px;" >Cidade</p>
-            <p style="margin-left: 162px;" >Data de Pagamento</p>
-        </div>
-        <div class="ladoalado">
-            <input type="tel" class="telefone" name="telefone" placeholder="opcional">
-            <input id="espacamento" class="cidade" name="cidade" type="text" placeholder="DIgite a sua Cidade">
-            <input id="espacamento" class="data" type="date" name="data">
-        </div>
-        <div>
-            <p>Forma de Pagamento</p>
-        </div>
-        <div class="marcador">
-          <input type="text" class="formapagamento" >
-        </div>
-        <div class="marcadorduasvias">
-            <input   type="checkbox" id="meuCheckbox" class="duasvias" name="meuCheckbox">
-            <p style="margin: 0px 0px 0px 20px; position: relative;">Duas Vias?</p>
-        </div>
-        <div class="ladoalado">
-            <button id="espacamento" class="gerar">Gerar</button>
-        </div>
-    </form>
+        <div class="valor">
+            <input type="text" name="valor"   placeholder="digite o valor aqui" required maxlength="4">
+            </div>
+            <div class="ladoalado">
+                <p>Pagador</p>
+                <p style="margin-left: 159px;">CPF/CNPJ</p>
+            </div>
+            <div class="ladoalado">
+                <input type="text" class="nomepagador" name="nomepagador" placeholder="Digite o nome do Pagador">
+                <input id="espacamento" class="cpfpagador" name="cpfpagador" type="text" placeholder="Digite o CPF/CNPJ do Pagador">
+            </div>
+            <div>
+                <p>Referencia</p>
+                <input id="referencia" class="referencia" name="referencia" type="text" placeholder="Digite a Referencia">
+            </div>
+            <div class="ladoalado">
+                <p>Nome do Emissor</p>
+                <p style="margin-left: 78px;" >CPF/CNPJ</p>
+            </div>
+            <div class="ladoalado">
+                <input type="text"  class="nomeemissor" name="nomeemissor" placeholder="Digite o seu nome">
+                <input id="espacamento" class="cpfemissor" name="cpfemissor" type="text" placeholder="Digite o seu CPF/CNPJ">
+            </div>
+            <div class="ladoalado">
+                <p>Telefone(opcional)</p>
+                <p style="margin-left: 78px;" >Cidade</p>
+                <p style="margin-left: 162px;" >Data de Pagamento</p>
+            </div>
+            <div class="ladoalado">
+                <input type="text" class="telefone" name="telefone" placeholder="opcional">
+                <input id="espacamento" class="cidade" name="cidade" type="text" placeholder="DIgite a sua Cidade">
+                <input id="espacamento" class="data" type="date" name="data">
+            </div>
+            <div>
+                <p>Forma de Pagamento</p>
+            </div>
+            <div class="marcador">
+              <input type="text" class="formapagamento" >
+            </div>
+            <div class="marcadorduasvias">
+                <input   type="checkbox" id="meuCheckbox" class="duasvias" name="meuCheckbox">
+                <p style="margin: 0px 0px 0px 20px; position: relative;">Duas Vias?</p>
+            </div>
+       
+            <div class="ladoalado">
+                <button id="espacamento" class="gerar">Gerar</button>
+                <button id="espacamento" class="Limpar">Limpar</button>
+            </div>
+        </form>
 </body>
 </html>

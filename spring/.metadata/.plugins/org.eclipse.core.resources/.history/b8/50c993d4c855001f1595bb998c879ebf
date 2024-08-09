@@ -1,0 +1,19 @@
+package com.dev.geradordepdf;
+
+public class gerador  {
+	private String documento = "teste";
+	
+	public gerador(){
+		documento = "teste";
+	}
+
+	public String getDocumento() {
+		return documento;
+	}
+
+	public void setDocumento(String documento) {
+		this.documento = documento;
+	}
+	
+}
+

@@ -1,0 +1,21 @@
+package com.dev.geradordepdf;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class gerador  {
+	private String documento = "teste";
+	
+	public gerador(){
+	}
+
+	public String getDocumento() {
+		return documento;
+	}
+
+	public void setDocumento(String documento) {
+		this.documento = documento;
+	}
+	
+}
+

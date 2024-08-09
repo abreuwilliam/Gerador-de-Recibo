@@ -1,0 +1,11 @@
+package com.dev.geradordepdf;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class controller {
+	@GetMapping("/")
+    public String home() {
+        return "Api funcionando"; 
+    }
+}
