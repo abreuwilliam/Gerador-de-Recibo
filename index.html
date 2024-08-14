@@ -15,7 +15,7 @@
         <p>valor</p>
         </div>
         <div class="valor">
-            <input type="text" name="valor"   placeholder="digite o valor aqui" required maxlength="4">
+            <input type="number" name="valor"   placeholder="digite o valor aqui" required maxlength="4">
             </div>
             <div class="ladoalado">
                 <p>Pagador</p>
@@ -23,7 +23,7 @@
             </div>
             <div class="ladoalado">
                 <input type="text" class="nomepagador" name="nomepagador" placeholder="Digite o nome do Pagador">
-                <input id="espacamento" class="cpfpagador" name="cpfpagador" type="text" placeholder="Digite o CPF/CNPJ do Pagador">
+				<input id="espacamento" class="cpfpagador" maxlength="14" autocomplete="off" name="cpfpagador" type="text" placeholder="opcional">
             </div>
             <div>
                 <p>Referencia</p>
@@ -35,7 +35,7 @@
             </div>
             <div class="ladoalado">
                 <input type="text"  class="nomeemissor" name="nomeemissor" placeholder="Digite o seu nome">
-                <input id="espacamento" class="cpfemissor" name="cpfemissor" type="text" placeholder="Digite o seu CPF/CNPJ">
+                <input id="espacamento" maxlength="14" autocomplete="off" class="cpfemissor" name="cpfemissor" type="text" placeholder="Digite o seu CPF/CNPJ">
             </div>
             <div class="ladoalado">
                 <p>Telefone(opcional)</p>
@@ -43,7 +43,7 @@
                 <p style="margin-left: 162px;" >Data de Pagamento</p>
             </div>
             <div class="ladoalado">
-                <input type="text" class="telefone" name="telefone" placeholder="opcional">
+                <input type="text" class="telefone" name="telefone" placeholder="opcional" maxlength="12">
                 <input id="espacamento" class="cidade" name="cidade" type="text" placeholder="DIgite a sua Cidade">
                 <input id="espacamento" class="data" type="date" name="data">
             </div>
@@ -53,15 +53,15 @@
             <div class="marcador">
               <input type="text" class="formapagamento" >
             </div>
-            <div class="marcadorduasvias">
-                <input   type="checkbox" id="meuCheckbox" class="duasvias" name="meuCheckbox">
-                <p style="margin: 0px 0px 0px 20px; position: relative;">Duas Vias?</p>
-            </div>
+             <br></br>
        
             <div class="ladoalado">
-                <button id="espacamento" class="gerar">Gerar</button>
-                <button id="espacamento" class="Limpar">Limpar</button>
+                <button id="espacamento" type="submit" class="gerar">Gerar</button>
+                <button id="espacamento" type="button" class="Limpar">Limpar</button>
+                <a class="pdf" target="_blank" href="pdf test.pdf" download="nome-do-arquivo.pdf">Baixar PDF</a>
             </div>
+            
+            
         </form>
 </body>
 </html>
